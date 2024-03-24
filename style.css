@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+.attribution{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 10px; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 600px;   
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 10px 5px 15px 5px  hsl(221, 100%, 96%);
+
+}
+
+#box-left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 25px;
+}
+
+#box-right{
+    width: 50%;
+}
+
+#result-text{
+    font-weight: 700;
+    color: hsl(221, 100%, 96%, 0.5);
+}
